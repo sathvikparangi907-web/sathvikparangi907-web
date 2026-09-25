@@ -1,40 +1,69 @@
-<h1 align="center">Hi, I'm Sathvik 👋</h1>
-<p align="center"><b>Deep learning for brain–computer interfaces</b> · decoding intent from EEG</p>
+<h1 align="center">Hey, I'm Sathvik 👋</h1>
+<h3 align="center">Aspiring AI Engineer · Deep Learning · Building models that hold up outside the lab</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/braindecode-4B8BBE?style=flat-square" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=6C63FF&center=true&vCenter=true&width=520&lines=Pursuing+AI+Engineering;Deep+learning+%7C+PyTorch+%7C+Transformers;Brain-computer+interfaces+%26+EEG+decoding;Reproducible+experiments%2C+honest+results" alt="Typing SVG" />
 </p>
 
 ---
 
-### What I work on
+### 🚀 About me
 
-Motor imagery decoders work well on the person they were trained on and badly on anyone new.
-I build and evaluate models on the harder question — **how well does a decoder do for a user it has never seen?**
+- 🎯 Working toward a career as an **AI Engineer** — taking models from idea to something that actually works on real data
+- 🧠 Current focus: **deep learning for brain–computer interfaces**, making EEG decoders generalise to people they've never seen
+- 🌱 Learning: **LLMs, transformers, and deploying ML** beyond notebooks
+- 🔬 I care about rigour: strong baselines, one change at a time, and reporting what *didn't* work
+- 🤝 Open to internships, collaborations and research projects in AI/ML
 
-### 🧠 Featured: [Neural Decoder — EEG Motor Imagery](https://github.com/sathvikparangi907-web/neural-decoder-eeg-motor-imagery)
+### 🛠️ Toolkit
 
-Four-class motor imagery decoding on BCI Competition IV-2a, evaluated leave-one-subject-out across nine subjects.
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+</p>
 
-- **HCT-Net**, a hybrid CNN–transformer I designed, benchmarked against FBCSP, EEGNet, ATCNet, EEG Conformer and CTNet
-- **51.9% cross-subject accuracy** (chance = 25%) — statistically level with ATCNet and EEG Conformer
-- Component ablation (V0–V5), an adversarial subject-invariant variant, Euclidean alignment
-- Wilcoxon signed-rank tests with Holm–Bonferroni correction; **negative results reported, not hidden**
-- Every result reproducible in one command, no GPU needed: `py phase3/report.py`
+**Areas:** Deep Learning · Transformers & Attention · Signal Processing · Model Evaluation & Statistics · Transfer / Domain Generalisation
 
-### How I work
+### 📌 Featured work
 
-- Measure against published baselines before claiming anything
-- Change one thing at a time, select on validation, report what didn't work
-- Every script ends in a self-check that fails loudly
+<table>
+<tr>
+<td>
+
+**[🧠 Neural Decoder — EEG Motor Imagery](https://github.com/sathvikparangi907-web/neural-decoder-eeg-motor-imagery)**
+
+Decoding imagined movement from brain signals, tested on subjects the model has never seen.
+
+- Designed **HCT-Net**, a hybrid CNN–transformer, benchmarked against 5 published models
+- **51.9% cross-subject accuracy** on 4 classes (chance 25%), level with ATCNet & EEG Conformer
+- Ablation study, adversarial training, statistical significance testing
+- Fully reproducible — every result regenerates in one command
+
+`PyTorch` `Transformers` `EEG` `BCI` `Domain Generalisation`
+
+</td>
+</tr>
+</table>
+
+<sub>More AI projects on the way 🚧</sub>
+
+### 📊 GitHub stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sathvikparangi907-web&show_icons=true&hide_border=true&theme=tokyonight" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathvikparangi907-web&layout=compact&hide_border=true&theme=tokyonight" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sathvikparangi907-web&theme=tokyo-night&hide_border=true" />
+</p>
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathvikparangi907-web&layout=compact&hide_border=true&theme=transparent" height="140" />
-</p>
+<p align="center"><i>"Measure first, claim second."</i></p>
